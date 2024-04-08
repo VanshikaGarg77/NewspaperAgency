@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="621.0" prefWidth="783.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AdminDesk.deskViewController">
+   <children>
+      <Label layoutX="273.0" layoutY="6.0" text="Admin Desk">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="33.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="163.0" fitWidth="149.0" layoutX="628.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hawkers.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="654.0" layoutY="199.0" mnemonicParsing="false" onAction="#doHawker" text="Hawker Manager" />
+      <ImageView fitHeight="130.0" fitWidth="208.0" layoutX="55.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@newspaper.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="83.0" layoutY="212.0" mnemonicParsing="false" onAction="#doPaper" text="Paper Master" />
+      <ImageView fitHeight="130.0" fitWidth="274.0" layoutX="276.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@customer3.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="287.0" layoutY="212.0" mnemonicParsing="false" onAction="#doCustomer" text="Customer Master" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="39.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="130.0" fitWidth="150.0" layoutX="458.0" layoutY="82.0">
+         <image>
+            <Image url="@bill2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="233.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@download.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="429.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@billStatus.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="112.0" fitWidth="167.0" layoutX="601.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@customer.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="168.0" layoutX="70.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hawker.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="480.0" layoutY="212.0" mnemonicParsing="false" onAction="#billCollect" text="Bill Collector" />
+      <Button layoutX="55.0" layoutY="443.0" mnemonicParsing="false" onAction="#allHawkers" text="Display Hawkers" />
+      <Button layoutX="273.0" layoutY="443.0" mnemonicParsing="false" onAction="#billstatus" text="Bill Status" />
+      <Button layoutX="466.0" layoutY="443.0" mnemonicParsing="false" onAction="#billGen" text="Bill Generator" />
+      <Button layoutX="628.0" layoutY="443.0" mnemonicParsing="false" onAction="#allCustomers" text="Customer Googler" />
+      <Button layoutX="285.0" layoutY="526.0" mnemonicParsing="false" onAction="#developer" text="Meet the Developer">
+         <font>
+            <Font name="Arial" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

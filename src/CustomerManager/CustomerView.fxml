@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="744.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CustomerManager.CustomerViewController">
+   <children>
+      <Label layoutX="191.0" layoutY="14.0" text="Customer Manager">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="72.0" text="Mobile number:" />
+      <TextField fx:id="txtMobile" layoutX="64.0" layoutY="99.0" />
+      <Button layoutX="254.0" layoutY="99.0" mnemonicParsing="false" onAction="#doFetch" text="Fetch" textOverrun="CLIP" />
+      <Label layoutX="342.0" layoutY="72.0" text="Name:" />
+      <TextField fx:id="idAdd" layoutX="138.0" layoutY="440.0" />
+      <ListView fx:id="showlist1" layoutX="59.0" layoutY="170.0" onMouseClicked="#doClick" prefHeight="123.0" prefWidth="94.0" />
+      <ListView fx:id="showlist2" layoutX="174.0" layoutY="170.0" prefHeight="123.0" prefWidth="101.0" />
+      <ListView fx:id="showlist3" layoutX="336.0" layoutY="170.0" onMouseClicked="#doDelete" prefHeight="123.0" prefWidth="109.0" />
+      <ListView fx:id="showlist4" layoutX="459.0" layoutY="170.0" prefHeight="123.0" prefWidth="116.0" />
+      <Label layoutX="102.0" layoutY="139.0" text="Papers Available">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="376.0" layoutY="139.0" text="Selected Papers">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="74.0" layoutY="323.0" text="Area" />
+      <ComboBox fx:id="idArea" editable="true" layoutX="74.0" layoutY="341.0" onAction="#doArea" prefHeight="26.0" prefWidth="139.0" />
+      <Label layoutX="264.0" layoutY="323.0" text="Hawker" />
+      <TextField fx:id="idHawker" layoutX="264.0" layoutY="342.0" />
+      <Label layoutX="76.0" layoutY="444.0" text="Address:" />
+      <TextField fx:id="idEmail" layoutX="459.0" layoutY="342.0" />
+      <Label layoutX="459.0" layoutY="323.0" text="Email:" />
+      <Label layoutX="359.0" layoutY="444.0" text="Date Of Start:" />
+      <DatePicker fx:id="idDate" layoutX="447.0" layoutY="440.0" />
+      <Button layoutX="96.0" layoutY="525.0" mnemonicParsing="false" onAction="#Subscribe" text="Subscribe" />
+      <Button layoutX="226.0" layoutY="525.0" mnemonicParsing="false" onAction="#update" text="Update" />
+      <Button layoutX="359.0" layoutY="525.0" mnemonicParsing="false" onAction="#unsubscribe" text="Unsubscribe" />
+      <TextField fx:id="txtName" layoutX="339.0" layoutY="99.0" />
+      <ImageView fitHeight="185.0" fitWidth="200.0" layoutX="534.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@customer.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="idStatus" layoutX="501.0" layoutY="529.0" text="Status" />
+   </children>
+</AnchorPane>

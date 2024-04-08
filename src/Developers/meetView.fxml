@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="177.0" layoutY="16.0" prefHeight="41.0" prefWidth="260.0" text="Meet the Developers">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="131.0" fitWidth="199.0" layoutX="61.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@mee.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="156.0" fitWidth="249.0" layoutX="334.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@RajeshSir.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="242.0" layoutY="65.0" prefHeight="42.0" prefWidth="183.0" text="   Developed By:">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="343.0" layoutY="101.0" prefHeight="42.0" prefWidth="150.0" text="VANSHIKA">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="292.0" layoutY="162.0" prefHeight="32.0" prefWidth="252.0" text="Email id: vanshika@gmail.com">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="222.0" prefHeight="50.0" prefWidth="286.0" text="    Under The Guidance of:">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="272.0" prefHeight="42.0" prefWidth="162.0" text="Author of &quot;Real Java&quot;">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="293.0" prefHeight="58.0" prefWidth="162.0" text="Rajesh Bansal">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="330.0" prefHeight="42.0" prefWidth="204.0" text="Email id: bcebti@gmail.com">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="343.0" layoutY="129.0" prefHeight="42.0" prefWidth="150.0" text="210280136">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
